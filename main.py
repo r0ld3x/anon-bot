@@ -2,6 +2,8 @@ import logging
 from pyrogram import Client
 from vars import vars
 
+logging.basicConfig(level=logging.INFO)
+
 roldex = Client('anon-bot',
                   api_id=var.API_ID,
                   api_hash=var.API_HASH,
