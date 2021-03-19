@@ -28,7 +28,7 @@ async def matrix(client, message):
 @Client.on_callback_query()
 async def cb(client, call):
     r = call.data
-    msgid = int(k.split("-")[1])
+    msgid = int(r.split("-")[1])
     chat = call.message.chat.id
     if r.startswith("yes"):
         await call.message.delete()
