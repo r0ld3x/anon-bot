@@ -19,7 +19,7 @@ else:
 
 REPLY_MARKUP = InlineKeyboardMarkup([
     [InlineKeyboardButton("⛑️ SUPPORT ⛑️",
-                          url="t.me/moragchats")],
+                          url="t.me/moragcodes")],
     [InlineKeyboardButton(" 👨 DEV 👨 ",
                           url="t.me/r0ld3x")],
     [InlineKeyboardButton("📩DEPLOY📩",
