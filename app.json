@@ -21,9 +21,9 @@
         "description": "ADD START MESSAGE WHEN USER START THE BOT",
         "value": ""
     },
-    "CUSTOM_MESSAGE": {
+    "CAPTION_MESSAGE": {
         "description": "YOUR CUSTOM CAPTION LIKE YOUR USERNAME",
-        "value": "@MORAGCHATS"
+        "value": "GENRATED BY @MORAGCODES"
     }
    },
    "buildpacks": [
