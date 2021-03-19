@@ -22,7 +22,7 @@ REPLY_MARKUP = InlineKeyboardMarkup([
                           url="t.me/moragchats")],
     [InlineKeyboardButton(" 👨 DEV 👨 ",
                           url="t.me/r0ld3x")],
-    [InlineKeyboardButton("📩DEPLOY",
+    [InlineKeyboardButton("📩DEPLOY📩",
                           url="https://github.com/r0ld3x/anon-bot")]])
 
 
