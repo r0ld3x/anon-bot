@@ -21,10 +21,7 @@ async def matrix(client, message):
                                    callback_data=f"yes-{msg}"),
                                    InlineKeyboardButton(
                                      text="No ❌",
-                                     callback_data=f"no-{msg}")
-                              #   InlineKeyboardButton(
-                               #      text="Bot Captions✍️",
-                              #       callback_data=f"add-{msg}")]])
+                                     callback_data=f"no-{msg}")]])
                              )
 
 
@@ -40,10 +37,7 @@ async def cb(client, call):
         await call.message.delete()
         await call.message._client.copy_message(chat, chat, msgid,
                                                 caption="")
-   # if r.startswith("add"): #bug
-      # await call.message.delete()
-      # await call.message._client.copy_message(chat, chat, msgid,
-        #                                        caption=f" CAP ")
+                                        
                                                 
                                                 
                                                 
