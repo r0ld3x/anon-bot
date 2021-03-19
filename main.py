@@ -5,6 +5,5 @@ from vars import vars
 roldex = Client('anon-bot',
                   api_id=var.API_ID,
                   api_hash=var.API_HASH,
-                  bot_token=var.BOT_TOKEN,
-                  plugins=dict(root="plugins"))                            
- roldex.run()
+                  bot_token=var.BOT_TOKEN,                   plugins=dict(root="plugins"))                            
+roldex.run()

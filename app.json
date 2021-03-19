@@ -15,6 +15,14 @@
     "API_HASH": {
       "description": "Your API_HASH from https://my.telegram.org/apps",
       "value": ""
+    },
+    "START_MESSAGE": {
+        "description": "ADD START MESSAGE WHEN USER START THE BOT"
+        "value": ""
+    },
+    "CUSTOM_MESSAGE": {
+        "description": "YOUR CUSTOM CAPTION LIKE YOUR USERNAME"
+        "value": "@MORAGCHATS"
     }
    },
    "buildpacks": [

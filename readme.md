@@ -2,7 +2,7 @@
 <p align="center"><i>A Telegram Bot to Anonymize the Sender of Messages or Media.</i></p>
 <HR>
 
-* ###  You Can Find It At #
+###  You Can Find It At 
 
 <br>
 
@@ -17,3 +17,4 @@
 <br><br>
 
 ### CONTRIBUTIONS AND SUGGESTIONS ARE WELCOME !!
+# anon-bot
