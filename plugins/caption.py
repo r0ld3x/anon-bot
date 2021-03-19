@@ -10,9 +10,9 @@ from pyrogram.types import (
 
 from vars import var
 
-USERNAME="@moragchats"
+USERNAME="GENRATED BY @MORAGCODES"
 
-if var.CUSTOM_CAPTION is not None:
+if var.CAPTION_MESSAGE is not None:
     START = var.CAPTION_MESSAGE
 else:
     START = USERNAME
