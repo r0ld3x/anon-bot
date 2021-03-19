@@ -8,12 +8,13 @@ from pyrogram.types import (
     InlineKeyboardMarkup
 )
 
-from vars import CUSTOM_CAPTION
+from vars import var
 
-if CUSTOM_CAPTION is not None:
-USERNAME= CUSTOM_CAPTION
+USERNAME=var.CUSTOM_CAPTION
+if USERNAME is not None:
+CAP=USERNAME 
 else:
-USERNAME="@moragchats"
+CAP="@moragchats"
 
 @Client.on_message(filters.caption & filters.private)
 async def matrix(client, message):
@@ -48,7 +49,7 @@ async def cb(client, call):
      if r.startswith("add"):
        await call.message.delete()
        await call.message._client.copy_message(chat, chat, msgid,
-                                                caption=f" + USERNAME + ")
+                                                caption=" + CAP + ")
                                                 
                                                 
                                                 
