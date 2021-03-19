@@ -9,11 +9,7 @@ from pyrogram.types import (
 from vars import var
 
 
-START_MSG = """
-Hi, I am **ANONYMOUS SENDER BOT.**\n
-Just Forward me Some messages or
-media and I will **Anonymize** that !!
-"""
+START_MSG = "Hey! This Is Me ANONYMOUS-BOT. \n I WILL HIDE SENDER NAME, TAG AND CAPTIONS.\n JUST SEND ME ANY MEDIA AND MESSAGES."
 
 if var.START_MESSAGE is not None:
     START = var.START_MESSAGE
