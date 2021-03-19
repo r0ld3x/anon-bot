@@ -1,6 +1,7 @@
 {
   "name": "Anon bot",
   "description": "A bot to hide the Sender of Messages",
+  "logo": "https://telegra.ph/file/70f0362a545ead3e18030.jpg",
   "repository": "https://github.com/r0ld3x/Anon-bot",
   "keywords": ["telegram", "Anonymous Sender", "Hide sender","telegram bot"],
   "env": {
@@ -17,11 +18,11 @@
       "value": ""
     },
     "START_MESSAGE": {
-        "description": "ADD START MESSAGE WHEN USER START THE BOT"
+        "description": "ADD START MESSAGE WHEN USER START THE BOT",
         "value": ""
     },
     "CUSTOM_MESSAGE": {
-        "description": "YOUR CUSTOM CAPTION LIKE YOUR USERNAME"
+        "description": "YOUR CUSTOM CAPTION LIKE YOUR USERNAME",
         "value": "@MORAGCHATS"
     }
    },
