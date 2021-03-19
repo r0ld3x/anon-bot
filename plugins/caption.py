@@ -46,7 +46,7 @@ async def cb(client, call):
         await call.message.delete()
         await call.message._client.copy_message(chat, chat, msgid,
                                                 caption="")
-     if r.startswith("add"):
+    if r.startswith("add"):
        await call.message.delete()
        await call.message._client.copy_message(chat, chat, msgid,
                                                 caption=" + CAP + ")
