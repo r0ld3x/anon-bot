@@ -12,9 +12,9 @@ from vars import var
 
 USERNAME=var.CUSTOM_CAPTION
 if USERNAME is not None:
-CAP=USERNAME 
+ CAP=USERNAME 
 else:
-CAP="@moragchats"
+ CAP="@moragchats"
 
 @Client.on_message(filters.caption & filters.private)
 async def matrix(client, message):
