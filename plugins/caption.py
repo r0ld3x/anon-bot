@@ -8,13 +8,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup
 )
 
-from vars import var
 
-USERNAME=var.CUSTOM_CAPTION
-if USERNAME is not None:
- CAP=USERNAME 
-else:
- CAP="@moragchats"
 
 @Client.on_message(filters.caption & filters.private)
 async def matrix(client, message):
@@ -27,10 +21,10 @@ async def matrix(client, message):
                                    callback_data=f"yes-{msg}"),
                                    InlineKeyboardButton(
                                      text="No ❌",
-                                     callback_data=f"no-{msg}"),
-                                 InlineKeyboardButton(
-                                     text="Bot Captions✍️",
-                                     callback_data=f"add-{msg}")]])
+                                     callback_data=f"no-{msg}")
+                              #   InlineKeyboardButton(
+                               #      text="Bot Captions✍️",
+                              #       callback_data=f"add-{msg}")]])
                              )
 
 
@@ -46,10 +40,10 @@ async def cb(client, call):
         await call.message.delete()
         await call.message._client.copy_message(chat, chat, msgid,
                                                 caption="")
-    if r.startswith("add"):
-       await call.message.delete()
-       await call.message._client.copy_message(chat, chat, msgid,
-                                                caption=f" CAP ")
+   # if r.startswith("add"): #bug
+      # await call.message.delete()
+      # await call.message._client.copy_message(chat, chat, msgid,
+        #                                        caption=f" CAP ")
                                                 
                                                 
                                                 
