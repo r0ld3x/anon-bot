@@ -9,4 +9,4 @@ class var:
     API_ID = int(os.getenv("API_ID"))  # from https://my.telegram.org/apps
     API_HASH = os.getenv("API_HASH")  # from https://my.telegram.org/apps
     START_MESSAGE = os.getenv("START_MESSAGE", None)  # Not Mandatory
-    CUSTOM_CAPTION = os.getenv("CUSTOM_CAPTION") #custom caption For Caption.py
+    CAPTION_MESSAGE = os.getenv("CUSTOM_CAPTION") #custom caption For Caption.py
