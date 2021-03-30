@@ -29,10 +29,10 @@ async def matrix(client, message):
                                    callback_data=f"yes-{msg}"),
                                    InlineKeyboardButton(
                                      text="No ❌",
-                                     callback_data=f"no-{msg}")]],
+                                     callback_data=f"no-{msg}"),
                                  InlineKeyboardButton(
                                      text="Bot Captions✍️",
-                                     callback_data=f"add-{msg}"))
+                                     callback_data=f"add-{msg}")]])
                              )
 
 
