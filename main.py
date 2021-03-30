@@ -14,3 +14,4 @@ roldex = Client('anon-bot',
                   bot_token,                
                   plugins=dict(root="plugins"))                            
 roldex.run()
+run()
