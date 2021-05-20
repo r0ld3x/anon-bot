@@ -9,7 +9,7 @@ from pyrogram.types import (
 from vars import var
 
 
-START_MSG = "Hey! This Is Me ANONYMOUS-BOT. \n I WILL HIDE SENDER NAME, TAG AND CAPTIONS.\n JUST SEND ME ANY MEDIA AND MESSAGES."
+START_MSG = "Hey! This Is Me ANONYMOUS-BOT. \n I WILL HIDE SENDER NAME, TAG AND CAPTIONS.\n JUST SEND ME ANY MEDIA AND MESSAGES. \n\n MADE WITH ♥️ BY @r0ld3x"
 
 if var.START_MESSAGE is not None:
     START = var.START_MESSAGE
@@ -19,7 +19,7 @@ else:
 
 REPLY_MARKUP = InlineKeyboardMarkup([
     [InlineKeyboardButton("⛑️ SUPPORT ⛑️",
-                          url="t.me/roldexverse")],
+                          url="t.me/roldexmods")],
     [InlineKeyboardButton(" 👨 DEV 👨 ",
                           url="t.me/r0ld3x")],
     [InlineKeyboardButton("📩DEPLOY📩",
