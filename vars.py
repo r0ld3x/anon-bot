@@ -5,8 +5,8 @@ load_dotenv(find_dotenv())
 
 
 class var:
-    BOT_TOKEN = "1771171629:AAGhmkT9XMzt6oLnLugzJm5tZKErNM-FnhY"  # from @botfather
-    API_ID = "1667849" # from https://my.telegram.org/apps
-    API_HASH =  "b719710209932bff18219f4064e92388" # from https://my.telegram.org/apps
+    BOT_TOKEN = os.getenv("BOT_TOKEN")  # from @botfather
+    API_ID = int(os.getenv("API_ID")) # from https://my.telegram.org/apps
+    API_HASH =  os.getenv("API_HASH") # from https://my.telegram.org/apps
     START_MESSAGE = "" # Not Mandatory
     CAPTION_MESSAGE = "" #custom caption For Caption.py
